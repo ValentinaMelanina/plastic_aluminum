@@ -1,0 +1,23 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+/*  TEAM  */
+  Developer: Melanina Valentina
+  	Contact: hello [at] melanina.ru
+  	From: Russia, Moscow
+
+/* SITE */
+    Site name: Wit And Wis
+    Site URL: http://www.wit-wis.com/
+	Last update: 2017/03/18
+	Language: Russian
+	Doctype: HTML
+	IDE: PhpStorm, FileZilla, Gulp, YUI Compressor (CSS/JS)
+	Software: Photoshop
+	Browser: > IE 9
+	CMS: 1C-Bitrix
+
+/*  TECHNOLOGY COLOPHON  */
+    Standards: HTML, CSS
+    Components: jQuery, PHP
+    Languages: Jade, SASS (SCSS)
