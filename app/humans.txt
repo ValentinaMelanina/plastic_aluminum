@@ -7,17 +7,16 @@
   	From: Russia, Moscow
 
 /* SITE */
-    Site name: Wit And Wis
-    Site URL: http://www.wit-wis.com/
-	Last update: 2017/03/18
+    Site name: Plastic & aluminum
+    Site URL:
+	Last update: 2017/07/18
 	Language: Russian
 	Doctype: HTML
-	IDE: PhpStorm, FileZilla, Gulp, YUI Compressor (CSS/JS)
+	IDE: PhpStorm, Gulp, YUI Compressor (CSS/JS)
 	Software: Photoshop
 	Browser: > IE 9
-	CMS: 1C-Bitrix
 
 /*  TECHNOLOGY COLOPHON  */
-    Standards: HTML, CSS
-    Components: jQuery, PHP
-    Languages: Jade, SASS (SCSS)
+    Standards: HTML5, CSS3
+    Components: jQuery
+    Languages: Jade/pug, SASS (SCSS)
