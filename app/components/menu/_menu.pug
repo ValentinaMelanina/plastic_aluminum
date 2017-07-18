@@ -1,0 +1,18 @@
+.menu-wrapper
+	mixin navLink(link, name)
+		li.menu__item
+			a.menu__link(
+			href = link
+			class = {active: name === current}
+			) #{name}
+
+	ul(class="menu header__menu" id="menu")
+		+navLink ('#', 'О компании')
+		+navLink ('price.html', 'Цены')
+		+navLink ('#', 'Услуги и продукты')
+		+navLink ('#', 'Акции')
+		+navLink ('#', 'Контакты')
+
+.clearfix
+
+

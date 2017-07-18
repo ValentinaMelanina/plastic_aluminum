@@ -1,3 +1,16 @@
-.logo
-	img(src="../images/logo.png" alt=companyName)
+.header-info-top
+	// Логотип
+	.logo
+		img(src="../images/logo.png" alt=companyName)
 
+	//	Блок с контактами
+	.header-contact
+		.header-contact__link
+			a(href="#").link_orange.header-contact__calculate-cost Рассчитать стоимость
+
+		.header-contact__phone_open-hours
+			.header-contact__open-hours c 9 до 21 без выходных
+			a(href="tel:=companyPhone").header-contact__phone=companyPhone
+
+//	Главное меню
+include ../../components/menu/_menu

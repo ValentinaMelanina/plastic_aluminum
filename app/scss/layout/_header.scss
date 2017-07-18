@@ -1,0 +1,64 @@
+
+.header-info-top {
+  @extend %flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 16px 25px 0;
+}
+.header-contact {
+  @extend %flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  text-align: right;
+  align-items: flex-end;
+  margin-left: 20px;
+  padding-bottom: 20px;
+}
+.header-contact__phone {
+  font-size: 31px;
+  color: #484745;
+  text-decoration: none;
+}
+.header-contact__link {
+  font-size: 23px;
+  margin-right: 77px;
+}
+.menu-wrapper {
+  margin-top: 20px;
+}
+.header-contact__open-hours {
+  font-size: 16px;
+  color: #484745;
+  margin-bottom: 10px;
+}
+.header__menu {
+  @extend %flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  
+  & .menu__item {
+	width: 100%;
+	display: block;
+	color: #5f6973;
+	border-right: 1px solid black;
+ 
+	&:last-child {
+	  border-right: none;
+	}
+  }
+  
+  & .menu__link {
+	display: block;
+	padding: 18px 20px;
+	font-size: 22px;
+	text-decoration: none;
+	
+	
+	&:hover,
+	&.active {
+	  background: #7bc3d5;
+	  color: white;
+	}
+  }
+}

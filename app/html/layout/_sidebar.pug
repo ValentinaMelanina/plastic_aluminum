@@ -1,2 +1,7 @@
+mixin products_list_recommended (product)
+	li=product
 
-
+h3 Рекомендуем также
+ul
+	for product in products_list_recommended
+		+event_tabs(product)

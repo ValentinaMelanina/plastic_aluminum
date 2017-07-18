@@ -1,0 +1,21 @@
+@import "variables";
+
+//- Link
+a {
+  color: #8a8a8a;
+  cursor: pointer;
+  text-decoration: underline;
+  
+  
+  &:hover {
+	color: $orange;
+  }
+  
+  &.link_orange {
+	color: $orange;
+	
+	&:hover {
+	  color: #484745;
+	}
+  }
+}
